@@ -1,0 +1,39 @@
+Grupo 1 {
+    - Gabriela
+    - Albert
+    - Firmino
+    - Rafael
+    - Davi
+}
+
+Grupo 2 {
+    - Claudino
+    - Israel
+    - Nielly
+    - Bruno
+    - Junior
+}
+
+Grupo 3 {
+    - Wellington
+    - Marcelo
+    - Ualis on
+    - Luanny
+    - Flavio
+}
+
+Grupo 4 {
+    - Leandro
+    - Felipe
+    - Elton
+    - Beatriz
+    - Vitor
+}
+
+Grupo 5 {
+    - Jordana
+    - Andre
+    - Henrique
+    - Luan
+    - Sergio
+}
