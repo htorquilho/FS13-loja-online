@@ -4,7 +4,13 @@ import "./styles.scss";
 import tenis from "./img/tenis.png";
 
 export default function FeaturedCollections() {
-    const [items, setItems] = React.useState([]);
+    const [items, setItems] = React.useState([]); 
+
+    React.useEffect(() => {    
+        fetch('http://localhost:8000/collections')
+            .then(res => res.json())
+            .then(data => setItems(data));
+    }, []);
 
     const Card = (props) => {
         return (
@@ -33,9 +39,9 @@ export default function FeaturedCollections() {
             Coleções em Destaque
 
             <Grid container spacing={2}>
-                <Card text="Camisetas" discount={30} image={tenis}/>
-                <Card text="Tenis" image={tenis}/>
-                <Card text="Headsets" discount={20} image={tenis}/>
+                {items.map(cada => (
+                    <Card text={cada.title}/>
+                ))}
             </Grid>
         </div>
     )
