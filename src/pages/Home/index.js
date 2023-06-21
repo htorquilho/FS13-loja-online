@@ -1,7 +1,7 @@
-import Footer from "../../components/Footer";
 import Menu from "../../components/Menu";
 import Navbar from "../../components/Navbar";
 import FeaturedCollections from "../../components/FeaturedCollections";
+import Footer from "../../components/Footer";
 
 export default function Home() {
     return (
