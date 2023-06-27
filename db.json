@@ -4,19 +4,94 @@
             "id": 1,
             "title": "Novo Drop Supreme",
             "discount": 30,
-            "image": ""
+            "image": "https://raw.githubusercontent.com/htorquilho/fs13-loja-online/colDestaque/Images/star-wars-storm-trooper-supreme-shirts-supreme-t-shirt-snoopy-clothing-apparel-t-shirt-text-transparent-png-616696%201star.png"
         },
         {
             "id": 2,
             "title": "Coleção Adidas",
             "discount": 40,
-            "image": ""
+            "image": "https://raw.githubusercontent.com/htorquilho/fs13-loja-online/colDestaque/Images/ddd%201sneakers.png"
         },
         {
             "id": 3,
             "title": "Novo     Beat Bass",
             "discount": 10,
-            "image": ""
+            "image": "https://raw.githubusercontent.com/htorquilho/fs13-loja-online/colDestaque/Images/d9db11953a2d185d37246bb1f500c957%201head.png"
         }
+    ],
+
+    "trending":[
+        {
+            "id":1,
+            "title":"K-Swiss V8 - Masculino",
+            "discount":"30",
+            "image":"https://raw.githubusercontent.com/htorquilho/fs13-loja-online/colDestaque/Images/d9db11953a2d185d37246bb1f500c957%201head.png",
+            "price1":"$100",
+            "price2":"$200"
+        },
+
+        {
+            "id":2,
+            "title":"K-Swiss V8 - Masculino",
+            "discount":"30",
+            "image":"https://raw.githubusercontent.com/htorquilho/fs13-loja-online/colDestaque/Images/d9db11953a2d185d37246bb1f500c957%201head.png",
+            "price1":"$100",
+            "price2":"$200"
+        },
+
+        {
+            "id":3,
+            "title":"K-Swiss V8 - Masculino",
+            "discount":"0",
+            "image":"https://raw.githubusercontent.com/htorquilho/fs13-loja-online/colDestaque/Images/d9db11953a2d185d37246bb1f500c957%201head.png",
+            "price1":"$100",
+            "price2":"$200"
+        },
+
+        {
+            "id":4,
+            "title":"K-Swiss V8 - Masculino",
+            "discount":"0",
+            "image":"https://raw.githubusercontent.com/htorquilho/fs13-loja-online/colDestaque/Images/d9db11953a2d185d37246bb1f500c957%201head.png",
+            "price1":"$100",
+            "price2":"$200"
+        },
+
+        {
+            "id":5,
+            "title":"K-Swiss V8 - Masculino",
+            "discount":"0",
+            "image":"https://raw.githubusercontent.com/htorquilho/fs13-loja-online/colDestaque/Images/d9db11953a2d185d37246bb1f500c957%201head.png",
+            "price1":"$100",
+            "price2":"$200"
+        },
+
+        {
+            "id":6,
+            "title":"K-Swiss V8 - Masculino",
+            "discount":"0",
+            "image":"https://raw.githubusercontent.com/htorquilho/fs13-loja-online/colDestaque/Images/d9db11953a2d185d37246bb1f500c957%201head.png",
+            "price1":"$100",
+            "price2":"$200"
+        },
+
+        {
+            "id":7,
+            "title":"K-Swiss V8 - Masculino",
+            "discount":"0",
+            "image":"https://raw.githubusercontent.com/htorquilho/fs13-loja-online/colDestaque/Images/d9db11953a2d185d37246bb1f500c957%201head.png",
+            "price1":"$100",
+            "price2":"$200"
+        },
+
+        {
+            "id":8,
+            "title":"K-Swiss V8 - Masculino",
+            "discount":"0",
+            "image":"https://raw.githubusercontent.com/htorquilho/fs13-loja-online/colDestaque/Images/d9db11953a2d185d37246bb1f500c957%201head.png",
+            "price1":"$100",
+            "price2":"$200"
+        }
+
     ]
 }

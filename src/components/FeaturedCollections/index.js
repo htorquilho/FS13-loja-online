@@ -17,10 +17,12 @@ export default function FeaturedCollections() {
         return (
             <Grid  item xs={4}>
                 
-                <div className="card ">
+                
+                <div className="card row">
                     
-                    <div>
-                        <div class="t">
+                    <div class="column">
+
+                        <div class="t ">
                         {props.discount}
                         {props.discount && "% OFF" } 
                         </div>
@@ -31,19 +33,26 @@ export default function FeaturedCollections() {
                         {props.text} <br/>
                         </div>
                         <button class="btn">Comprar</button>
+                        
                     </div>
 
-                    <div>
+                        <div class="column img">
+
                         <img src={props.image}/>
-                    </div>
+
+                        </div>
+
+                    
+                    
                 </div>
+                
             </Grid>
         )
     }
 
     return (
         <div className="featured-collections">
-            Coleções em Destaque
+            <h1 class="destaque">Coleções em destaque</h1>
 
             <Grid container spacing={3}>
                 {items.map(cada => (

@@ -3,18 +3,26 @@ $color-bg-pink: #C92071;
 
 div.featured-collections {
     margin-top: 100px;
+    width: 1440px;
+    height: 409;
     margin-bottom: 100px;
+s
+    .destaque {
+        color:#474747;
+        margin-left: 30px;
 
+    }
     .card {
         background-color: $color-bg-blue;
         border-radius: 8px;
-        min-height: 200px;
-        width: 605px;
+        height: 251px;
+        width: 405px;
         display: flex;
         justify-content: space-between;
         margin-left: 30px;
         img {
             width: 200px;
+            
         }
     }
 
@@ -23,14 +31,14 @@ div.featured-collections {
         color:$color-bg-pink;  
         border-radius: 5px;
         border:none;
-        margin-left: 15px;
+        margin-left:  15px;
         height: 48px;
         width: 175px;
         font-style:bold;
         font-size: 20px;
-        margin-top: 168px;
-        margin-left: 30px;
-        margin-bottom: 30px;
+        // margin-top: 168px;
+        // margin-left: 30px;
+        // margin-bottom: 30px;
         
     }
 
