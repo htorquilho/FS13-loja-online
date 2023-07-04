@@ -29,31 +29,25 @@ export default function TrendingProducts() {
 
                     </div>
 
-                        <div class="column img">
+                    <div class="column">
 
                         <img src={props.image}/>
 
-                        </div>
+                    </div>
 
                         <h2>Tênis</h2>
 
-                        <div class="texto">
+                    <div class="texto">
                                 {props.text} <br/>
-                        </div>
+                    </div>
 
-                        <div class="discount">
+                    <div class="discount">
                                 {props.price2 } 
-                        </div>
+                    </div>
 
                         <div class="price">
                                 {props.price1}
-                        </div>
-
-                            
-                                 
-
-                    
-                    
+                    </div>
                 </div>
                 
             </Grid>

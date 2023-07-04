@@ -1,8 +1,7 @@
 import React from "react";
-import { Grid, Button } from "@mui/material";
+import { Grid } from "@mui/material";
 import "./styles.scss";
-import tenis from "./img/tenis.png";
-import { spacing } from '@mui/system';
+
 
 export default function FeaturedCollections() {
     const [items, setItems] = React.useState([]); 
@@ -16,10 +15,9 @@ export default function FeaturedCollections() {
     const Card = (props) => {
         return (
             <Grid  item xs={4}>
-                
-                
-                <div className="card row">
-                    
+
+                <div className="card">
+
                     <div class="column">
 
                         <div class="t ">
@@ -33,19 +31,16 @@ export default function FeaturedCollections() {
                         {props.text} <br/>
                         </div>
                         <button class="btn">Comprar</button>
-                        
+
                     </div>
 
-                        <div class="column img">
+                    <div>
 
                         <img src={props.image}/>
 
-                        </div>
+                    </div>
 
-                    
-                    
                 </div>
-                
             </Grid>
         )
     }
