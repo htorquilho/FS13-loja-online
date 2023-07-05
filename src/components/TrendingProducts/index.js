@@ -41,12 +41,15 @@ export default function TrendingProducts() {
                                 {props.text} <br/>
                     </div>
 
+                    <div class="precos">
+                        
                     <div class="discount">
                                 {props.price2 } 
                     </div>
 
                         <div class="price">
                                 {props.price1}
+                    </div>
                     </div>
                 </div>
                 
