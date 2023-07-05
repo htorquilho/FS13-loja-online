@@ -1,4 +1,5 @@
 $color-bg-blue: #D8E3F2;
+$color-bg-pink: #C92071;
 
 div.featured-collections {
     margin-top: 100px;
@@ -8,11 +9,54 @@ div.featured-collections {
         background-color: $color-bg-blue;
         border-radius: 8px;
         min-height: 200px;
+        width: 605px;
         display: flex;
         justify-content: space-between;
-
+        margin-left: 30px;
         img {
             width: 200px;
         }
     }
+
+    .btn {
+        background-color: white; 
+        color:$color-bg-pink;  
+        border-radius: 5px;
+        border:none;
+        margin-left: 15px;
+        height: 48px;
+        width: 175px;
+        font-style:bold;
+        font-size: 20px;
+        margin-top: 168px;
+        margin-left: 30px;
+        margin-bottom: 30px;
+        
+    }
+
+    .t{
+        font-size: 20px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        background-color:#E7FF86;
+        color: #474747;
+        border-radius: 15px;
+        width: 96px;
+        height:32px;
+        padding:5px 15px 5px 15px;
+        margin-top: 34px;
+        margin-left: 30px;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .texto{
+        font-size: 35px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        width: 250px;
+        margin-left: 30px;
+
+    }
+
 }

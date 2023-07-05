@@ -13,7 +13,7 @@ export default function Home() {
 
             <FeaturedCollections/>
 
-            <div>
+            <div >
                 Coleções em Destaque 2
             </div>
 
