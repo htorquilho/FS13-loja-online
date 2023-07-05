@@ -1,6 +1,7 @@
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import FeaturedCollections from "../../components/FeaturedCollections";
+import TrendingProducts from "../../components/TrendingProducts";
 
 export default function Home() {
     return (
@@ -17,9 +18,7 @@ export default function Home() {
                 Coleções em Destaque 2
             </div>
 
-            <div>
-                Produtos
-            </div>
+            <TrendingProducts/>
 
             <div>
                 Oferta Especial
