@@ -1,3 +1,4 @@
+  
 .trending{
     margin-top: 100px;
     width: 1440px;
@@ -8,13 +9,19 @@
 
     .card {
         background-color: white;
+        margin: 0px 20px 0px 20px;
     }
     .title{
         color:#474747;
     }
 
     img{
-        width: 250px;
+        width: 292px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+
     }
 
     .t{
@@ -25,11 +32,17 @@
         border-radius: 15px;
         width: 96px;
         height:32px;
-        padding:5px 15px 5px 15px;
+        // padding:5px 15px 5px 15px;
         margin-top: 34px;
         margin-left: 30px;
+        display: flex;
         justify-content: center;
         align-items: center;
+    }
+
+    .column{
+        padding-top: 1px;
+        
     }
     
     .texto{
@@ -37,6 +50,7 @@
         margin-top: 5px;
         margin-bottom: 5px;
         font-size: 25px;
+        
     }
     .discount{
         text-decoration: line-through;
@@ -46,11 +60,14 @@
     h2{
         color: #8F8F8F;
         font-size: small;
+        background-color: whitesmoke;
     }
 
     .price{
         color: black;
         font-weight: bold;
+        margin-left: 5px;
+        background-color: whitesmoke;
 
     }
 
@@ -60,12 +77,25 @@
         align-content: center;
         align-items: center;
         color: #C92071;
-        width: 1440px;
+        width: 1420px;
+        margin-left: 10px;
     }
 
     .precos{
         display: flex;
-        
+        font-size: large;
+        background-color: whitesmoke;
     }
 
+    .bottom{
+        margin: 0px 20px 0px 20px;
+    }
+
+    .vermais{
+        text-decoration: none;
+        justify-content:center;
+        align-content: center;
+        align-items: center;
+        color: #C92071;
+    }
 }

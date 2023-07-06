@@ -1,6 +1,8 @@
 import React from "react"
 import { Grid } from "@mui/material";
 import "./style.scss"
+import { BsArrowRight } from "react-icons/bs";
+
 
 export default function TrendingProducts() {
     const [items, setItems] = React.useState([]); 
@@ -16,11 +18,11 @@ export default function TrendingProducts() {
             <Grid  item xs={3}>
                 
                 
-                <div className="card row">
+            <div className="card row">
                     
                     <div class="column">
 
-                        <div class="t ">
+                        <div className="t ">
                         {props.discount}
                         {props.discount && "% OFF" } 
                         </div>
@@ -31,28 +33,33 @@ export default function TrendingProducts() {
 
                     <div class="column">
 
+
                         <img src={props.image}/>
 
                     </div>
+                </div>
+
+                <div className="bottom">
 
                         <h2>Tênis</h2>
 
                     <div class="texto">
-                                {props.text} <br/>
+                         {props.text} <br/>
                     </div>
 
                     <div class="precos">
-                        
+
                     <div class="discount">
-                                {props.price2 } 
+                         ${props.price2 } 
                     </div>
 
                         <div class="price">
-                                {props.price1}
-                    </div>
-                    </div>
+                         ${props.price2 - props.price2 * (props.discount/100) }
+                        </div>
                 </div>
-                
+            </div>
+
+
             </Grid>
         )
     }
@@ -61,7 +68,7 @@ export default function TrendingProducts() {
         <div className="trending ">
             <div class="trending2">
                 <div><h1 class="title">Produtos em alta</h1></div>
-                <div>Ver Tudo</div>
+                <a className="vermais" href="/produtos">Ver todos <BsArrowRight/> </a>
             </div>
             
 
