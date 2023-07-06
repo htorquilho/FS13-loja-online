@@ -5,16 +5,16 @@ import digitalstore from "../Footer/img/digitalstore-icon.svg";
 import facebook from "../Footer/img/facebook-icon.svg";
 import instagram from "../Footer/img/instagram-icon.svg";
 import twitter from "../Footer/img/twitter-icon.svg";
-import "./styles.css";
+import "./styles.scss";
 
 export default function Footer() {
   return (
-  <Fragment>
-      <Grid container className="footer-grid">
+  <div className="footer">
+        <Grid container className="footer-grid">
           <Grid item>
               <div className="logo-div">
-                  <img src={digitalstore} className="logo-img" alt="Icone da Digital Store"/>
-                  <h2 className="titulo-loja">Digital Store</h2>
+                <img className="logo-img" src={digitalstore} alt="Icone da Digital Store"/>
+                <div className="titulo-loja">Digital Store</div>
               </div> 
 
               <p className="p-loja">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
@@ -26,7 +26,7 @@ export default function Footer() {
           <Grid item>
               <h4 className="titulo-info">Informação</h4>
 
-              <div className="info">
+              <div className="div-info">
                   <div>Sobre Drip Store</div>
                   <div>Segurança</div>
                   <div>Wishlist</div>
@@ -39,7 +39,7 @@ export default function Footer() {
           <Grid item>
               <h4 className="titulo-categorias">Categorias</h4>
 
-              <div className="categorias-div">    
+              <div className="div-categorias">    
                   <div>Camisetas</div>
                   <div>Calças</div>
                   <div>Bonés</div>
@@ -58,7 +58,7 @@ export default function Footer() {
           
           <p className="p-copy">&copy; 2022 Digital College</p>
           
-          </Grid>
-  </Fragment>
+        </Grid>
+  </div>
   )
 }
