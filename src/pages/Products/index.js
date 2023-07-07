@@ -1,6 +1,7 @@
 import Footer from "../../components/Footer";
 import Menu from "../../components/Menu";
 import Navbar from "../../components/Navbar";
+import CheckForm from "../../components/CheckForm";
 
 export default function Products() {
     return (
@@ -8,8 +9,8 @@ export default function Products() {
             <Navbar/>
             <Menu/>
 
-            Pagina de Produtos
-
+            <CheckForm/>
+            
             <Footer/>
         </div>
     )
