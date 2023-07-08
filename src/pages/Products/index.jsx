@@ -1,11 +1,35 @@
 import Header from "../../components/Header";
 import "./style.scss";
-import sneakers from "./page3-sneakers.png"
 import * as React from 'react';
 import Rating from '@mui/material/Rating';
 import Stack from '@mui/material/Stack';
 
 export default function Products() {
+    const [items, setItems] = React.useState([]); 
+    const [currentImage, setCurrentImage] = React.useState('');
+    const [currentTitle, setcurrentTitle] = React.useState('');
+    const [currentRef, setcurrentRef] = React.useState('');
+    const [currentPrice, setcurrentPrice] = React.useState('');
+    const [currentDescription, setcurrentDescription] = React.useState('');
+
+    React.useEffect(() => {
+        fetch('http://localhost:8000/page3')
+            .then(res => res.json())
+            .then(data => {
+          setItems(data);
+          setCurrentImage(data[0].image);
+          setcurrentTitle(data[0].title);
+          setcurrentRef(data[0].ref);
+          setcurrentPrice(data[0].price);
+          setcurrentDescription(data[0].description);
+
+        });
+    }, []);
+
+    function loadNewImage(imageUrl) {
+        setCurrentImage(imageUrl);
+      }
+
     return (
         
         <div>
@@ -26,19 +50,20 @@ export default function Products() {
 
             <div className="row">
                 <div className="sneakers">
-                    <img src={sneakers} alt="" />
+                <img  src={currentImage} alt="Product" />
+
                 </div>
 
                 <div className="info">
-                    <h1>Tênis Nike Revolution 6 Next Nature Masculino</h1>
+                    <h1>{currentTitle}</h1>
                     <br />
-                    <h2>Casual | Nike | REF:38416711</h2>
+                    <h2>{currentRef}</h2>
                     <Stack spacing={1}>
                     <Rating name="half-rating" defaultValue={2.5} precision={0.5} />
                     </Stack>
-                    <h3>R$219,00</h3>
+                    <h3>{currentPrice}</h3>
                     <h2>Descrição do produto</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                    <p>{currentDescription}</p>
                     <h2>Tamanho</h2>
                     <div className="tamanho">
                         <button>39</button>
@@ -57,7 +82,19 @@ export default function Products() {
                 </div>
             </div>
 
-        </div>
+        </div> 
+
+            <div className="image-gallery">
+                {items.map(item => (
+                 <img className={`img3 ${item.color}`}
+                 key={item.id}
+                 src={item.image }
+                 alt="Thumbnail"
+                 onClick={() => loadNewImage(item.image)}
+                 
+                />
+                ))}
+            </div>
         </div>
     )
 }

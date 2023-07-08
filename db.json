@@ -18,5 +18,56 @@
             "discount": 10,
             "image": "https://static.vecteezy.com/system/resources/previews/012/628/220/non_2x/plain-black-t-shirt-on-transparent-background-free-png.png"
         }
+    ],
+
+    "page3": [
+        {
+            "id": 1,
+            "title": "Tênis Nike Revolution 6 Next Nature Masculino",
+            "ref":"Casual | Nike | REF:3841671",
+            "description":"9ashduashduiasdhiuasdiuas",
+            "price":"R$219,50",
+            "image": "https://raw.githubusercontent.com/htorquilho/fs13-loja-online/page3/src/pages/Products/page3-sneakers.png",
+            "color":""
+        },
+        {
+            "id": 1,
+            "title": "Tênis Nike 2 Next Nature Feminino",
+            "ref":"Casual | Nike | REF:4841675",
+            "description":"9ashduashduiasdhiuasdiuas",
+            "price":"R$519,50",
+            "image": "https://raw.githubusercontent.com/htorquilho/fs13-loja-online/page3/src/pages/Products/page3-sneakers.png",
+            "color":"bege"
+        },
+        {
+            "id": 1,
+            "title": "Tênis Adidas Blast 1080 Masculino",
+            "ref":"Casual | Adidas | REF:9841681",
+            "description":"9ashduashduiasdhiuasdiuas",
+            "price":"R$399,50",
+            "image": "https://raw.githubusercontent.com/htorquilho/fs13-loja-online/page3/src/pages/Products/page3-sneakers.png",
+            "color":"rosa"
+        },
+        {
+            "id": 1,
+            "title": "Tênis NB Titanium Masculino",
+            "ref":"Casual | New Balance | REF:786621",
+            "description":"9ashduashduiasdhiuasdiuas",
+            "price":"R$159,50",
+            "image": "https://raw.githubusercontent.com/htorquilho/fs13-loja-online/page3/src/pages/Products/page3-sneakers.png",
+            "color":"marrom"
+        },
+        {
+            "id": 1,
+            "title": "Tênis Adidas Blast 1080 Feminino",
+            "ref":"Casual | Adidas | REF:3841671",
+            "description":"9ashduashduiasdhiuasdiuas",
+            "price":"R$399,50",
+            "image": "https://raw.githubusercontent.com/htorquilho/fs13-loja-online/page3/src/pages/Products/page3-sneakers.png",
+            "color":"offwhite"
+        }
+
+        
     ]
+
 }

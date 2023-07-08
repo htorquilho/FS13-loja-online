@@ -93,5 +93,51 @@
         border: 2px solid #C92071;
       }
 }
+
+
+.image-gallery{
+    width: 700px;
+    margin-left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+    
+
+    .img3{
+        margin: 15px;
+        background-color: #E2E3FF;
+        border-radius: 3px;
+    }
+
+    .img3:hover{
+        border: 1px solid #C92071;
+    }
+
+    img{
+        width: 117px;
+        height: 96px;
+    }
+
+    .img3.bege{
+        background-color: #FFE8BC;
+    }
+
+    .img3.rosa{
+        background-color: #FFC0BC;
+    }
+
+    .img3.marrom{
+        background-color: #DEC699;
+    }
+
+    .img3.offwhite{
+        background-color: #E8DFCF;
+        ;
+    }
+
+
+  }
     
 
