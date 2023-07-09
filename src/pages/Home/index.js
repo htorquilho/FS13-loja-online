@@ -1,11 +1,13 @@
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import FeaturedCollections from "../../components/FeaturedCollections";
+import SpecialOffer from "../../components/SpecialOffer";
 import TrendingProducts from "../../components/TrendingProducts";
 
 export default function Home() {
     return (
         <div style={{ width: '1440px' }}>
+            
             <Header />
 
             <div>
@@ -14,18 +16,16 @@ export default function Home() {
 
             <FeaturedCollections/>
 
-            <div >
+            <div>
                 Coleções em Destaque 2
             </div>
 
             <TrendingProducts/>
             
+            <SpecialOffer />
 
-            {/* <div>
-                Oferta Especial
-            </div>
-
-            <Footer/> */}
+            <Footer/>
+                  
         </div>
     )
 }
