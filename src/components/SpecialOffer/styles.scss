@@ -3,26 +3,29 @@
 $color-pink: #C92071;
 $color-text: #474747;
 
-.special-offer-section {
-    
+.offer-section {
+    padding-left: 20px;
+    padding-right: 50px;
+}
 
-    #bg-offer {
-        position: absolute;
-        margin-left: 250px;
-        width: 466px;
-        height: 466px;
-        margin-top: 45px;
-        margin-left: 52px;
-    }
-    
+.special-offer-left {
+    /* Ellipse 11 */
+    position: absolute;
+    width: 466px;
+    height: 466px;
+    background: linear-gradient(180deg, rgba(66, 0, 255, 0.25) -40.67%, rgba(255, 255, 255, 0) 100%);
+    border-radius: 250px;
+    margin-left: 100px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     #img-offer {
         position: absolute;
         width: 573px;
         height: 330px;
-        margin-top: 90px;
-        margin-left: -5px;
-        z-index: 3;
-        display: flex;
+        margin-bottom: 85px;
+        margin-right: 50px;
     }
 }
 
@@ -51,12 +54,14 @@ $color-text: #474747;
     line-height: 28px;
     letter-spacing: 0.75px;
     margin-top: 20px;
+    color: black;
 }
 
 #special-offer-button {
     background-color: $color-pink;
     font-family: Inter, sans-serif;
     color: #FFFF;
+    border: none;
     font-size: 14px;
     margin-right: 10px;
     margin-top: 20px;
@@ -66,3 +71,10 @@ $color-text: #474747;
     width: 200px;
     height: 40px; 
 }
+
+#special-offer-button:hover {
+    cursor: pointer;
+    background-color: #9e0a52;
+}
+
+

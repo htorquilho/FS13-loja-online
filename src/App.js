@@ -15,7 +15,6 @@ export default function App() {
         <Route path="/produtos" element={<Products/>}/>
         <Route path="/produtos/:id" element={<ProductDetails/>}/>
         <Route path="/meus-pedidos" element={<Orders/>}/>
-        <Route path="/special-offer" element={<SpecialOffer/>}/>
       </Routes>
     </BrowserRouter>
   )

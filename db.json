@@ -22,10 +22,10 @@
 
     "special-offer": [
         {
-            "id": 99,
+            "id": 1,
             "text": "Air Jordan edição de colecionador",
             "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut consectetur mi. Praesent vulputate risus nec dui imperdiet, vel laoreet mauris semper. Vestibulum viverra congue erat, sit amet pretium velit convallis sit amet. Maecenas condimentum sem vitae bibendum rutrum.",
-            "image": "https://github.com/htorquilho/fs13-loja-online/blob/oferta_especial/src/components/SpecialOffer/img/tenis-oferta-especial.svg"
+            "image": "https://raw.githubusercontent.com/htorquilho/fs13-loja-online/43338653a0061e37a10fae8903b8d2f89a73be24/src/components/SpecialOffer/img/tenis-oferta-especial.svg"
         }    
     ] 
 }
