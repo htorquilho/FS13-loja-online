@@ -3,6 +3,7 @@ import "./style.scss";
 import * as React from 'react';
 import Rating from '@mui/material/Rating';
 import Stack from '@mui/material/Stack';
+import RelatedProducts from "../../components/RelatedProducts";
 
 export default function Products() {
     const [items, setItems] = React.useState([]); 
@@ -95,6 +96,7 @@ export default function Products() {
                 />
                 ))}
             </div>
+            <RelatedProducts/>
         </div>
     )
 }

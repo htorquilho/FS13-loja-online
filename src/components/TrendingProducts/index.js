@@ -2,7 +2,7 @@ import React from "react"
 import { Grid } from "@mui/material";
 import "./style.scss"
 
-export default function TrendingProducts() {
+export default function RelatedProducts() {
     const [items, setItems] = React.useState([]); 
 
     React.useEffect(() => {    
