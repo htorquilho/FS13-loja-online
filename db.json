@@ -24,73 +24,73 @@
         {
             "id":1,
             "title":"K-Swiss V8 - Masculino",
-            "discount":"30",
+            "discount":50,
             "image":"https://raw.githubusercontent.com/htorquilho/fs13-loja-online/TrendingProducts/Images/shoes.png",
-            "price1":"$100",
-            "price2":"$200"
+            "price1":100,
+            "price2":200
         },
 
         {
             "id":2,
             "title":"K-Swiss V8 - Masculino",
-            "discount":"30",
+            "discount":30,
             "image":"https://raw.githubusercontent.com/htorquilho/fs13-loja-online/TrendingProducts/Images/shoes.png",
-            "price1":"$100",
-            "price2":"$200"
+            "price1":100,
+            "price2":200
         },
 
         {
             "id":3,
             "title":"K-Swiss V8 - Masculino",
-            "discount":"0",
+            "discount":"45",
             "image":"https://raw.githubusercontent.com/htorquilho/fs13-loja-online/TrendingProducts/Images/shoes.png",
-            "price1":"$100",
-            "price2":"$200"
+            "price1":100,
+            "price2":200
         },
 
         {
             "id":4,
             "title":"K-Swiss V8 - Masculino",
-            "discount":"0",
+            "discount":10,
             "image":"https://raw.githubusercontent.com/htorquilho/fs13-loja-online/TrendingProducts/Images/shoes.png",
-            "price1":"$100",
-            "price2":"$200"
+            "price1":100,
+            "price2":200
         },
 
         {
             "id":5,
             "title":"K-Swiss V8 - Masculino",
-            "discount":"0",
+            "discount":80,
             "image":"https://raw.githubusercontent.com/htorquilho/fs13-loja-online/TrendingProducts/Images/shoes.png",
-            "price1":"$100",
-            "price2":"$200"
+            "price1":100,
+            "price2":200
         },
 
         {
             "id":6,
             "title":"K-Swiss V8 - Masculino",
-            "discount":"0",
+            "discount":5,
             "image":"https://raw.githubusercontent.com/htorquilho/fs13-loja-online/TrendingProducts/Images/shoes.png",
-            "price1":"$100",
-            "price2":"$200"
+            "price1":100,
+            "price2":200
         },
 
         {
             "id":7,
             "title":"K-Swiss V8 - Masculino",
-            "discount":"0",
+            "discount":10,
             "image":"https://raw.githubusercontent.com/htorquilho/fs13-loja-online/TrendingProducts/Images/shoes.png",
-            "price1":"$100",
-            "price2":"$200"
+            "price1":100,
+            "price2":200
         },
 
         {
             "id":8,
             "title":"K-Swiss V8 - Masculino",
-            "discount":"0",
+            "discount":5,
             "image":"https://raw.githubusercontent.com/htorquilho/fs13-loja-online/TrendingProducts/Images/shoes.png",
-            "price1":"$100",
-            "price2":"$200"
+            "price1":100,
+            "price2":200
         }
 
     ],
