@@ -2,22 +2,97 @@
     "collections": [
         {
             "id": 1,
-            "title": "Camisetas",
+            "title": "Novo Drop Supreme",
             "discount": 30,
-            "image": "https://w7.pngwing.com/pngs/246/734/png-transparent-nike-free-nike-air-max-air-jordan-sneakers-nike-white-outdoor-shoe-sneakers.png"
+            "image": "https://raw.githubusercontent.com/htorquilho/fs13-loja-online/colDestaque/Images/star-wars-storm-trooper-supreme-shirts-supreme-t-shirt-snoopy-clothing-apparel-t-shirt-text-transparent-png-616696%201star.png"
         },
         {
             "id": 2,
-            "title": "Tenis",
+            "title": "Coleções  Adidas",
             "discount": 40,
-            "image": "https://www.imagensempng.com.br/wp-content/uploads/2021/05/Headset-Gamer-Png.png"
+            "image": "https://raw.githubusercontent.com/htorquilho/fs13-loja-online/colDestaque/Images/ddd%201sneakers.png"
         },
         {
             "id": 3,
-            "title": "Headsets",
+            "title": "Novos Beat Bass",
             "discount": 10,
-            "image": "https://static.vecteezy.com/system/resources/previews/012/628/220/non_2x/plain-black-t-shirt-on-transparent-background-free-png.png"
+            "image": "https://raw.githubusercontent.com/htorquilho/fs13-loja-online/colDestaque/Images/d9db11953a2d185d37246bb1f500c957%201head.png"
         }
+    ],
+
+    "trending":[
+        {
+            "id":1,
+            "title":"K-Swiss V8 - Masculino",
+            "discount":"30",
+            "image":"https://raw.githubusercontent.com/htorquilho/fs13-loja-online/TrendingProducts/Images/shoes.png",
+            "price1":"$100",
+            "price2":"$200"
+        },
+
+        {
+            "id":2,
+            "title":"K-Swiss V8 - Masculino",
+            "discount":"30",
+            "image":"https://raw.githubusercontent.com/htorquilho/fs13-loja-online/TrendingProducts/Images/shoes.png",
+            "price1":"$100",
+            "price2":"$200"
+        },
+
+        {
+            "id":3,
+            "title":"K-Swiss V8 - Masculino",
+            "discount":"0",
+            "image":"https://raw.githubusercontent.com/htorquilho/fs13-loja-online/TrendingProducts/Images/shoes.png",
+            "price1":"$100",
+            "price2":"$200"
+        },
+
+        {
+            "id":4,
+            "title":"K-Swiss V8 - Masculino",
+            "discount":"0",
+            "image":"https://raw.githubusercontent.com/htorquilho/fs13-loja-online/TrendingProducts/Images/shoes.png",
+            "price1":"$100",
+            "price2":"$200"
+        },
+
+        {
+            "id":5,
+            "title":"K-Swiss V8 - Masculino",
+            "discount":"0",
+            "image":"https://raw.githubusercontent.com/htorquilho/fs13-loja-online/TrendingProducts/Images/shoes.png",
+            "price1":"$100",
+            "price2":"$200"
+        },
+
+        {
+            "id":6,
+            "title":"K-Swiss V8 - Masculino",
+            "discount":"0",
+            "image":"https://raw.githubusercontent.com/htorquilho/fs13-loja-online/TrendingProducts/Images/shoes.png",
+            "price1":"$100",
+            "price2":"$200"
+        },
+
+        {
+            "id":7,
+            "title":"K-Swiss V8 - Masculino",
+            "discount":"0",
+            "image":"https://raw.githubusercontent.com/htorquilho/fs13-loja-online/TrendingProducts/Images/shoes.png",
+            "price1":"$100",
+            "price2":"$200"
+        },
+
+        {
+            "id":8,
+            "title":"K-Swiss V8 - Masculino",
+            "discount":"0",
+            "image":"https://raw.githubusercontent.com/htorquilho/fs13-loja-online/TrendingProducts/Images/shoes.png",
+            "price1":"$100",
+            "price2":"$200"
+        }
+
     ],
 
     "page3": [

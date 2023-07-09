@@ -1,0 +1,71 @@
+.trending{
+    margin-top: 100px;
+    width: 1440px;
+    height: 976px;
+    margin-bottom: 100px;
+    margin-left: 30px;
+    background-color: whitesmoke;
+
+    .card {
+        background-color: white;
+    }
+    .title{
+        color:#474747;
+    }
+
+    img{
+        width: 250px;
+    }
+
+    .t{
+        font-size: 20px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        background-color:#E7FF86;
+        color: #474747;
+        border-radius: 15px;
+        width: 96px;
+        height:32px;
+        padding:5px 15px 5px 15px;
+        margin-top: 34px;
+        margin-left: 30px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .texto{
+        color: #474747;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        font-size: 25px;
+    }
+    .discount{
+        text-decoration: line-through;
+        color: #8F8F8F;
+    }
+
+    h2{
+        color: #8F8F8F;
+        font-size: small;
+    }
+
+    .price{
+        color: black;
+        font-weight: bold;
+
+    }
+
+    .trending2{
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        align-items: center;
+        color: #C92071;
+        width: 1440px;
+    }
+
+    .precos{
+        display: flex;
+        
+    }
+
+}
