@@ -45,25 +45,3 @@ export default function SpecialOffer() {
         </div>
     )
  };
-
-
-
-
-
-     // return (
-    //     <Grid container spacing={4} className="special-offer-section" >
-    //         <Grid item xs={6} md={4}>
-    //             <div id="bg-offer"><img src={bgSpecialOffer} alt="bg-oferta-especial" /></div>
-    //             <div id="img-offer"><img src={tenisOffer} alt="offer-image" /></div>
-    //         </Grid>
-
-    //         <Grid item xs={6} md={8}>
-    //             <div id="special-offer-name-section">Oferta Especial</div>
-    //             <div id="special-offer-text">{text}Lorem</div>
-    //             <div id="special-offer-description">{description}Lorem</div>
-    //             <Grid>
-    //                 <Button variant="contained" id="special-offer-button">Ver Oferta</Button>
-    //             </Grid>
-    //         </Grid>
-    //     </Grid>
-    // );
