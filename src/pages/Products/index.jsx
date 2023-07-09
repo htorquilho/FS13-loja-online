@@ -51,7 +51,7 @@ export default function Products() {
             <div className="row">
                 <div className="sneakers">
                 <img  src={currentImage} alt="Product" />
-
+                <p>TESTANDO</p>
                 </div>
 
                 <div className="info" >
