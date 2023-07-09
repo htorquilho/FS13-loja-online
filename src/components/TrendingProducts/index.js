@@ -4,7 +4,7 @@ import "./style.scss"
 import { BsArrowRight } from "react-icons/bs";
 
 
-export default function TrendingProducts() {
+export default function RelatedProducts() {
     const [items, setItems] = React.useState([]); 
 
     React.useEffect(() => {    
