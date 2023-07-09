@@ -54,7 +54,7 @@ export default function Products() {
 
                 </div>
 
-                <div className="info">
+                <div className="info" >
                     <h1>{currentTitle}</h1>
                     <br />
                     <h2>{currentRef}</h2>
