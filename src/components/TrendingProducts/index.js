@@ -68,7 +68,7 @@ export default function TrendingProducts() {
         <div className="trending ">
             <div class="trending2">
                 <div><h1 class="title">Produtos em alta</h1></div>
-                <a className="vermais" href="/produtos">Ver todos <BsArrowRight/> </a>
+                <a className="vermais" href="/produtos">Ver todos <BsArrowRight/></a>
             </div>
             
 
