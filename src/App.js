@@ -4,6 +4,7 @@ import Categories from "./pages/Categories";
 import Products from "./pages/Products";
 import ProductDetails from "./pages/ProductDetails";
 import Orders from "./pages/Orders";
+import SpecialOffer from "./components/SpecialOffer";
 
 export default function App() {
   return (
@@ -14,6 +15,7 @@ export default function App() {
         <Route path="/produtos" element={<Products/>}/>
         <Route path="/produtos/:id" element={<ProductDetails/>}/>
         <Route path="/meus-pedidos" element={<Orders/>}/>
+        <Route path="/special-offer" element={<SpecialOffer/>}/>
       </Routes>
     </BrowserRouter>
   )

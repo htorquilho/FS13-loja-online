@@ -3,16 +3,66 @@
 $color-pink: #C92071;
 $color-text: #474747;
 
-.of-especial-button {
-    background-color: $color-pink;
-    color: #FFFFFF;
+.special-offer-section {
+    
+
+    #bg-offer {
+        position: absolute;
+        margin-left: 250px;
+        width: 466px;
+        height: 466px;
+        margin-top: 45px;
+        margin-left: 52px;
+    }
+    
+    #img-offer {
+        position: absolute;
+        width: 573px;
+        height: 330px;
+        margin-top: 90px;
+        margin-left: -5px;
+        z-index: 3;
+        display: flex;
+    }
+}
+
+#special-offer-name-section {
+    color: $color-pink;
     font-family: Inter, sans-serif;
-    font-size: 14px;
+    font-weight: 700;
     font-weight: bold;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.75px;
+}
+
+#special-offer-text {
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 50px;
+    letter-spacing: 1px;
+    margin-top: 20px;
+}
+
+#special-offer-description {
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.75px;
+    margin-top: 20px;
+}
+
+#special-offer-button {
+    background-color: $color-pink;
+    font-family: Inter, sans-serif;
+    color: #FFFF;
+    font-size: 14px;
     margin-right: 10px;
+    margin-top: 20px;
     text-transform: none;
     border-radius: 8px;
     letter-spacing: 0.75px ; 
-    width: 114px;
-    height: 42px;
+    width: 200px;
+    height: 40px; 
 }
