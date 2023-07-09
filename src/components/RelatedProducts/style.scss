@@ -1,16 +1,17 @@
 .trending{
     margin-top: 100px;
     width: 1440px;
-    height: 976px;
+    height: 488px;
     margin-bottom: 100px;
     margin-left: 30px;
-    background-color: whitesmoke;
+    background-color: #F9F8FE;
 
     .card {
         background-color: white;
     }
     .title{
         color:#474747;
+        margin-left: 15px;
     }
 
     img{
@@ -66,6 +67,15 @@
     .precos{
         display: flex;
         
+    }
+
+    .vermais{
+        text-decoration: none;
+        justify-content:center;
+        align-content: center;
+        align-items: center;
+        color: #C92071;
+        margin-right: 30px;
     }
 
 }

@@ -12,8 +12,8 @@ import Buttons from './Buttons';
 export default function Header() {
     return (
         
-        <>
-        <Box className="header-pai-topbar">
+        <div >
+        <Box className="header-pai-topbar" >
             <Box className="header-topbar">
                 <Box to="/" sx={{ cursor: 'pointer'}}>
                     <img src={logoDG} alt="logoDG" />
@@ -26,6 +26,6 @@ export default function Header() {
                 <Menu />
             </Box>
         </Box>
-        </>
+        </div>
     )
 }

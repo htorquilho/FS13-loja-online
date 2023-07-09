@@ -33,7 +33,7 @@ export default function Products() {
 
     return (
         
-        <div>
+        <div style={{ backgroundColor: '#F9F8FE' }}>
 
         <Header/>
 

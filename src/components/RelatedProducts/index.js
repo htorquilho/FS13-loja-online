@@ -1,6 +1,7 @@
 import React from "react"
 import { Grid } from "@mui/material";
 import "./style.scss"
+import { BsArrowRight } from "react-icons/bs";
 
 export default function RelatedProducts() {
     const [items, setItems] = React.useState([]); 
@@ -44,11 +45,11 @@ export default function RelatedProducts() {
                     <div class="precos">
                         
                     <div class="discount">
-                                {props.price2 } 
+                    $ {props.price2 } 
                     </div>
 
                         <div class="price">
-                                {props.price1}
+                        ${props.price2 - props.price2 * (props.discount/100) }
                     </div>
                     </div>
                 </div>
@@ -61,7 +62,7 @@ export default function RelatedProducts() {
         <div className="trending ">
             <div class="trending2">
                 <div><h1 class="title">Produtos Relacionados</h1></div>
-                <div>Ver Tudo</div>
+                <a className="vermais" href="/produtos">Ver todos <BsArrowRight/></a>
             </div>
             
 

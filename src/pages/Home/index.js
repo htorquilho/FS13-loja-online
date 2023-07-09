@@ -5,8 +5,8 @@ import TrendingProducts from "../../components/TrendingProducts";
 
 export default function Home() {
     return (
-        <div>
-            <Header/>
+        <div style={{ width: '1440px' }}>
+            <Header />
 
             <div>
                 Carrossel
@@ -19,12 +19,13 @@ export default function Home() {
             </div>
 
             <TrendingProducts/>
+            
 
-            <div>
+            {/* <div>
                 Oferta Especial
             </div>
 
-            <Footer/>
+            <Footer/> */}
         </div>
     )
 }
