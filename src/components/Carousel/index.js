@@ -11,7 +11,6 @@ import './styles.scss'
 
 const AutoPlaySwipeableViews = autoPlay(SwipeableViews);
 
-
 export default function Carousel() {
     const theme = useTheme();
     const [offer,setOffer] = React.useState ([]);
@@ -43,8 +42,8 @@ export default function Carousel() {
     const InfoOffer = (props) => {
         return (
             <>
-            <Grid item xs={6}>
-                <div className="best-offer-left">
+            <div className="best-offer-section">
+                <Grid item xs={6} className="best-offer-left">
                     <div id="best-offer-name-section">{props.title}</div> 
                     <br />
                     <div id="best-offer-text">{props.text}</div> 
@@ -52,16 +51,15 @@ export default function Carousel() {
                     <div id="best-offer-description">{props.description}</div> 
                     <br />
                     <button id="best-offer-button">Ver Oferta</button>
-                </div>
+                </Grid>
                 <Grid item xs={6}>
                     <div className="best-offer-right">
                         <img id="img-offer" src={props.image} alt="best-offer-image" />
                     </div>
                 </Grid>
-            </Grid></>
+            </div></>
         )
     }
-
 
     return (
         <Box sx={{ maxWidth: '100%', flexGrow: 1 }}>
@@ -72,7 +70,7 @@ export default function Carousel() {
               display: 'flex',
               alignItems: 'center',
               height: 50,
-              pl: 2,
+              pl: 1,
               bgcolor: 'background.default',
             }}
           >
@@ -88,16 +86,17 @@ export default function Carousel() {
               <div key={step.label}>
                 {Math.abs(activeStep - index) <= 2 ? (
             
-            <div className="best-offer-section">
+           
                 <Grid container spacing={2}>
                 {offer.map(cada => (
                         <InfoOffer title={cada.title} text={cada.text} description={cada.description} image={cada.image} />
                     ))}
                 </Grid>
-            </div>
-
+ 
                 ) : null}
+
               </div>
+              
             ))}
           </AutoPlaySwipeableViews>
           <MobileStepper
@@ -106,6 +105,7 @@ export default function Carousel() {
             activeStep={activeStep}
             nextButton={<div></div>}
             backButton={<div></div>}
+            style={{backgroundColor:"#F5F5F5", color:"#C92071"}}
           />
         </Box>
       );
