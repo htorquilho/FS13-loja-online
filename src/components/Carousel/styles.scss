@@ -3,14 +3,20 @@
 $color-pink: #C92071;
 $color-text: #474747;
 $color-tile: #F6AA1C;
+$color-bg:#F5F5F5;
+
+.MuiMobileStepper-dotActive {
+    background-color: $color-pink;
+}
+
 
 .best-offer-section {
-    margin-top: 1%;
-    margin-bottom: 5%;
-    padding-left: 20px;
-    // padding-right: 50px;
-    background: #F5F5F5;
-    ;
+    width: 1440px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: $color-bg;
 }
 
 .best-offer-left {
@@ -18,13 +24,13 @@ $color-tile: #F6AA1C;
 }
 
 .best-offer-right {
+    display: flex;
+    align-items: end;
+    padding-top: 35%;
+    padding-left: 350px;
+
     #img-offer {
         position: absolute;
-        width: 573px;
-        height: 330px;
-        margin-bottom: 85px;
-        // margin-right: 50px;
-        // padding: 15%;
     }
 }
 
