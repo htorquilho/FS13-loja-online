@@ -2,21 +2,164 @@
     "collections": [
         {
             "id": 1,
-            "title": "Camisetas",
+            "title": "Novo Drop Supreme",
             "discount": 30,
-            "image": "https://w7.pngwing.com/pngs/246/734/png-transparent-nike-free-nike-air-max-air-jordan-sneakers-nike-white-outdoor-shoe-sneakers.png"
+            "image": "https://raw.githubusercontent.com/htorquilho/fs13-loja-online/colDestaque/Images/star-wars-storm-trooper-supreme-shirts-supreme-t-shirt-snoopy-clothing-apparel-t-shirt-text-transparent-png-616696%201star.png"
         },
         {
             "id": 2,
-            "title": "Tenis",
+            "title": "Coleções  Adidas",
             "discount": 40,
-            "image": "https://www.imagensempng.com.br/wp-content/uploads/2021/05/Headset-Gamer-Png.png"
+            "image": "https://raw.githubusercontent.com/htorquilho/fs13-loja-online/colDestaque/Images/ddd%201sneakers.png"
         },
         {
             "id": 3,
-            "title": "Headsets",
+            "title": "Novos Beat Bass",
             "discount": 10,
-            "image": "https://static.vecteezy.com/system/resources/previews/012/628/220/non_2x/plain-black-t-shirt-on-transparent-background-free-png.png"
+            "image": "https://raw.githubusercontent.com/htorquilho/fs13-loja-online/colDestaque/Images/d9db11953a2d185d37246bb1f500c957%201head.png"
         }
+    ],
+
+    "special-offer": [
+        {
+            "id": 1,
+            "text": "Air Jordan edição de colecionador",
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut consectetur mi. Praesent vulputate risus nec dui imperdiet, vel laoreet mauris semper. Vestibulum viverra congue erat, sit amet pretium velit convallis sit amet. Maecenas condimentum sem vitae bibendum rutrum.",
+            "image": "https://raw.githubusercontent.com/htorquilho/fs13-loja-online/43338653a0061e37a10fae8903b8d2f89a73be24/src/components/SpecialOffer/img/tenis-oferta-especial.svg"
+        }    
+    ], 
+
+    "trending":[
+        {
+            "id":1,
+            "title":"K-Swiss V8 - Masculino",
+            "discount":50,
+            "image":"https://raw.githubusercontent.com/htorquilho/fs13-loja-online/TrendingProducts/Images/shoes.png",
+            "price1":100,
+            "price2":200
+        },
+
+        {
+            "id":2,
+            "title":"K-Swiss V8 - Masculino",
+            "discount":30,
+            "image":"https://raw.githubusercontent.com/htorquilho/fs13-loja-online/TrendingProducts/Images/shoes.png",
+            "price1":100,
+            "price2":200
+        },
+
+        {
+            "id":3,
+            "title":"K-Swiss V8 - Masculino",
+            "discount":"45",
+            "image":"https://raw.githubusercontent.com/htorquilho/fs13-loja-online/TrendingProducts/Images/shoes.png",
+            "price1":100,
+            "price2":200
+        },
+
+        {
+            "id":4,
+            "title":"K-Swiss V8 - Masculino",
+            "discount":10,
+            "image":"https://raw.githubusercontent.com/htorquilho/fs13-loja-online/TrendingProducts/Images/shoes.png",
+            "price1":100,
+            "price2":200
+        },
+
+        {
+            "id":5,
+            "title":"K-Swiss V8 - Masculino",
+            "discount":80,
+            "image":"https://raw.githubusercontent.com/htorquilho/fs13-loja-online/TrendingProducts/Images/shoes.png",
+            "price1":100,
+            "price2":200
+        },
+
+        {
+            "id":6,
+            "title":"K-Swiss V8 - Masculino",
+            "discount":5,
+            "image":"https://raw.githubusercontent.com/htorquilho/fs13-loja-online/TrendingProducts/Images/shoes.png",
+            "price1":100,
+            "price2":200
+        },
+
+        {
+            "id":7,
+            "title":"K-Swiss V8 - Masculino",
+            "discount":10,
+            "image":"https://raw.githubusercontent.com/htorquilho/fs13-loja-online/TrendingProducts/Images/shoes.png",
+            "price1":100,
+            "price2":200
+        },
+
+        {
+            "id":8,
+            "title":"K-Swiss V8 - Masculino",
+            "discount":5,
+            "image":"https://raw.githubusercontent.com/htorquilho/fs13-loja-online/TrendingProducts/Images/shoes.png",
+            "price1":100,
+            "price2":200
+        }
+
+    ],
+
+    "page3": [
+        {
+            "id": 1,
+            "title": "Tênis Nike Revolution 6 Next Nature Masculino",
+            "ref":"Casual | Nike | REF:3841671",
+            "description":"9ashduashduiasdhiuasdiuas",
+            "price":"R$219,50",
+            "image": "https://raw.githubusercontent.com/htorquilho/fs13-loja-online/page3/src/pages/Products/page3-sneakers.png",
+            "color":""
+        },
+        {
+            "id": 1,
+            "title": "Tênis Nike 2 Next Nature Feminino",
+            "ref":"Casual | Nike | REF:4841675",
+            "description":"9ashduashduiasdhiuasdiuas",
+            "price":"R$519,50",
+            "image": "https://raw.githubusercontent.com/htorquilho/fs13-loja-online/page3/src/pages/Products/page3-sneakers.png",
+            "color":"bege"
+        },
+        {
+            "id": 1,
+            "title": "Tênis Adidas Blast 1080 Masculino",
+            "ref":"Casual | Adidas | REF:9841681",
+            "description":"9ashduashduiasdhiuasdiuas",
+            "price":"R$399,50",
+            "image": "https://raw.githubusercontent.com/htorquilho/fs13-loja-online/page3/src/pages/Products/page3-sneakers.png",
+            "color":"rosa"
+        },
+        {
+            "id": 1,
+            "title": "Tênis NB Titanium Masculino",
+            "ref":"Casual | New Balance | REF:786621",
+            "description":"9ashduashduiasdhiuasdiuas",
+            "price":"R$159,50",
+            "image": "https://raw.githubusercontent.com/htorquilho/fs13-loja-online/page3/src/pages/Products/page3-sneakers.png",
+            "color":"marrom"
+        },
+        {
+            "id": 1,
+            "title": "Tênis Adidas Blast 1080 Feminino",
+            "ref":"Casual | Adidas | REF:3841671",
+            "description":"9ashduashduiasdhiuasdiuas",
+            "price":"R$399,50",
+            "image": "https://raw.githubusercontent.com/htorquilho/fs13-loja-online/page3/src/pages/Products/page3-sneakers.png",
+            "color":"offwhite"
+        }
+    ],
+
+    "best-offer": [
+        {
+            "id": 1,
+            "title":"Melhores ofertas personalizadas",
+            "text": "Queima de stoque Nike 🔥",
+            "description":"Consequat culpa exercitation mollit nisi excepteur do do tempor laboris eiusmod irure consectetur.",
+            "image": "https://raw.githubusercontent.com/htorquilho/fs13-loja-online/ba6f12e6c77539833fa683a8e96343a3de5e6460/src/components/Carousel/img/white-sneakers-nike-carousel.svg"
+        }        
     ]
+
 }
