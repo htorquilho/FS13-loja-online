@@ -1,16 +1,16 @@
 import Footer from "../../components/Footer";
 import Menu from "../../components/Menu";
 import Navbar from "../../components/Navbar";
-import CheckForm from "../../components/CheckForm";
+import Products from "../../components/Products";
 
-export default function Products() {
+export default function AllProducts() {
     return (
         <div>
             <Navbar/>
             <Menu/>
-
-            <CheckForm/>
             
+            <Products/>
+           
             <Footer/>
         </div>
     )

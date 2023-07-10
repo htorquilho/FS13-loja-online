@@ -18,5 +18,131 @@
             "discount": 10,
             "image": "https://static.vecteezy.com/system/resources/previews/012/628/220/non_2x/plain-black-t-shirt-on-transparent-background-free-png.png"
         }
+    ],
+
+    "products": [
+        {
+            "id": 1,
+            "discount": 30,
+            "image": "/product.png",
+            "title": "Tênis",
+            "text": "K-Swiss V8 - Masculino",
+            "value": 200,
+            "newValue": 100
+
+        },
+        {
+            "id": 2,
+            "discount": 30,
+            "image": "/product.png",
+            "title": "Tênis",
+            "text": "K-Swiss V8 - Masculino",
+            "value": 200,
+            "newValue": 100
+        },
+        {
+            "id": 3,
+            "image": "/product.png",
+            "title": "Tênis",
+            "text": "K-Swiss V8 - Masculino",
+            "value": 200,
+            "newValue": 100
+        },
+        {
+            "id": 4,
+            "image": "/product.png",
+            "title": "Tênis",
+            "text": "K-Swiss V8 - Masculino",
+            "value": 200,
+            "newValue": 100
+        },
+        {
+            "id": 5,
+            "image": "/product.png",
+            "title": "Tênis",
+            "text": "K-Swiss V8 - Masculino",
+            "value": 200,
+            "newValue": 100
+        },
+        {
+            "id": 6,
+            "image": "/product.png",
+            "title": "Tênis",
+            "text": "K-Swiss V8 - Masculino",
+            "value": 200,
+            "newValue": 100
+        },
+        {
+            "id": 7,
+            "image": "/product.png",
+            "title": "Tênis",
+            "text": "K-Swiss V8 - Masculino",
+            "value": 200,
+            "newValue": 100
+        },
+        {
+            "id": 8,
+            "image": "/product.png",
+            "title": "Tênis",
+            "text": "K-Swiss V8 - Masculino",
+            "value": 200,
+            "newValue": 100
+        },
+        {
+            "id": 9,
+            "image": "/product.png",
+            "title": "Tênis",
+            "text": "K-Swiss V8 - Masculino",
+            "value": 200,
+            "newValue": 100
+        },
+        {
+            "id": 10,
+            "image": "/product.png",
+            "title": "Tênis",
+            "text": "K-Swiss V8 - Masculino",
+            "value": 200,
+            "newValue": 100
+        },
+        {
+            "id": 11,
+            "image": "/product.png",
+            "title": "Tênis",
+            "text": "K-Swiss V8 - Masculino",
+            "value": 200,
+            "newValue": 100
+        },
+        {
+            "id": 12,
+            "image": "/product.png",
+            "title": "Tênis",
+            "text": "K-Swiss V8 - Masculino",
+            "value": 200,
+            "newValue": 100
+        },
+        {
+            "id": 13,
+            "image": "/product.png",
+            "title": "Tênis",
+            "text": "K-Swiss V8 - Masculino",
+            "value": 200,
+            "newValue": 100
+        },
+        {
+            "id": 14,
+            "image": "/product.png",
+            "title": "Tênis",
+            "text": "K-Swiss V8 - Masculino",
+            "value": 200,
+            "newValue": 100
+        },
+        {
+            "id": 15,
+            "image": "/product.png",
+            "title": "Tênis",
+            "text": "K-Swiss V8 - Masculino",
+            "value": 200,
+            "newValue": 100
+        }
     ]
 }
