@@ -20,7 +20,6 @@
         }
     ],
 
-
     "special-offer": [
         {
             "id": 1,
@@ -151,8 +150,16 @@
             "image": "https://raw.githubusercontent.com/htorquilho/fs13-loja-online/page3/src/pages/Products/page3-sneakers.png",
             "color":"offwhite"
         }
+    ],
 
-        
+    "best-offer": [
+        {
+            "id": 1,
+            "title":"Melhores ofertas personalizadas",
+            "text": "Queima de stoque Nike 🔥",
+            "description":"Consequat culpa exercitation mollit nisi excepteur do do tempor laboris eiusmod irure consectetur.",
+            "image": "LINK TENIS NIKE"
+        }    
     ]
 
 }
