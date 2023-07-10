@@ -76,8 +76,6 @@ export default function Carousel() {
               bgcolor: 'background.default',
             }}
           >
-            {/* <Typography>{offer[activeStep].label}</Typography> */}
-
           </Paper>
 
           <AutoPlaySwipeableViews
@@ -89,16 +87,7 @@ export default function Carousel() {
             {offer.map((step, index) => (
               <div key={step.label}>
                 {Math.abs(activeStep - index) <= 2 ? (
-                  
-                //   <Grid container>
-                //     <Grid item>
-                //         {props.text}
-                //     </Grid>
-                //     <Grid>
-                //       <img src={step.image}/>
-                //     </Grid>
-                //   </Grid>
-
+            
             <div className="best-offer-section">
                 <Grid container spacing={2}>
                 {offer.map(cada => (
@@ -121,17 +110,3 @@ export default function Carousel() {
         </Box>
       );
     }
-    
-//     return(
-//         <div className="best-offer-section">
-//             <Grid container spacing={2}>
-//                {offer.map(cada => (
-//                     <InfoOffer title={cada.title} text={cada.text} description={cada.description} image={cada.image} />
-//                 ))}
-//             </Grid>
-//         </div>
-//         // <div>
-//         //     {}
-//         // </div>
-//     )
-//  };
