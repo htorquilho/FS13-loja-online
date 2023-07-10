@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400;700&display=swap');
+
+$color-pink: #C92071;
+$color-text: #474747;
+$color-tile: #F6AA1C;
+$color-bg:#F5F5F5;
+
+.MuiMobileStepper-dotActive {
+    background-color: $color-pink;
+}
+
+
+.best-offer-section {
+    width: 1440px;
+    height: 400px;
+    // display: flex;
+    // align-items: center;
+    // justify-content: flex-start;
+    background-color: $color-bg;
+}
+
+.best-offer-left {
+    padding: 10% 0% 15% 7%;
+}
+
+.best-offer-right {
+    display: flex;
+    align-items: end;
+    padding-top: 10%;
+    padding-left: 80%;
+
+    #img-offer {
+        position: absolute;
+        width: fit-content;
+    }
+}
+
+#best-offer-name-section {
+    color: $color-tile;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.75px;
+    text-align: left;
+}
+
+#best-offer-text {
+    font-family: Inter, sans-serif;
+    // padding-right: 45%;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 50px;
+    letter-spacing: 1px;
+    margin-top: 20px;
+}
+
+#best-offer-description {
+    font-family: Inter, sans-serif;
+    // padding-right: 35%;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.75px;
+    margin-top: 20px;
+    color: black;
+}
+
+#best-offer-button {
+    background-color: $color-pink;
+    font-family: Inter, sans-serif;
+    color: #FFFF;
+    border: none;
+    font-size: 14px;
+    margin-right: 10px;
+    margin-top: 20px;
+    text-transform: none;
+    border-radius: 8px;
+    letter-spacing: 0.75px ; 
+    width: 200px;
+    height: 40px; 
+}
+
+#best-offer-button:hover {
+    cursor: pointer;
+    background-color: #9e0a52;
+}
+
