@@ -11,9 +11,9 @@ export default function Menu() {
     return (
         <Box className="header-menu">
             <Link className={isActive('/')} to="/">Home</Link>
-            <Link className={isActive('/produtos')} to="/produtos">Produtos</Link>
+            <Link className={isActive('/page2')} to="/page2">Produtos</Link>
             <Link className={isActive('/categorias')} to="/categorias">Categorias</Link>
-            <Link className={isActive("/meus-pedidos")} to="/meus-pedidos">Meus Pedidos</Link>
+            <Link className={isActive("/produtos")} to="/produtos">Meus Pedidos</Link>
         </Box>
     )
 }
