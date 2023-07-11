@@ -236,7 +236,7 @@
             "ref":"Casual | Nike | REF:3841671",
             "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.s",
             "price":"R$219,50",
-            "image": "https://raw.githubusercontent.com/htorquilho/fs13-loja-online/page3/src/pages/Products/page3-sneakers.png",
+            "image": "https://raw.githubusercontent.com/htorquilho/fs13-loja-online/main/Images/sneakers1.PNG",
             "color":""
         },
         {
@@ -245,7 +245,7 @@
             "ref":"Casual | Nike | REF:4841675",
             "description":"9ashduashduiasdhiuasdiuas",
             "price":"R$519,50",
-            "image": "https://raw.githubusercontent.com/htorquilho/fs13-loja-online/main/Images/teste1.PNG",
+            "image": "https://raw.githubusercontent.com/htorquilho/fs13-loja-online/main/Images/sneakers2.PNG",
             "color":"bege"
         },
         {
@@ -254,7 +254,7 @@
             "ref":"Casual | Adidas | REF:9841681",
             "description":"9ashduashduiasdhiuasdiuas",
             "price":"R$399,50",
-            "image": "https://raw.githubusercontent.com/htorquilho/fs13-loja-online/page3/src/pages/Products/page3-sneakers.png",
+            "image": "https://raw.githubusercontent.com/htorquilho/fs13-loja-online/main/Images/sneakers3.PNG",
             "color":"rosa"
         },
         {
@@ -263,7 +263,7 @@
             "ref":"Casual | New Balance | REF:786621",
             "description":"9ashduashduiasdhiuasdiuas",
             "price":"R$159,50",
-            "image": "https://raw.githubusercontent.com/htorquilho/fs13-loja-online/page3/src/pages/Products/page3-sneakers.png",
+            "image": "https://raw.githubusercontent.com/htorquilho/fs13-loja-online/main/Images/sneakers4.PNG",
             "color":"marrom"
         },
         {
@@ -272,7 +272,7 @@
             "ref":"Casual | Adidas | REF:3841671",
             "description":"9ashduashduiasdhiuasdiuas",
             "price":"R$399,50",
-            "image": "https://raw.githubusercontent.com/htorquilho/fs13-loja-online/page3/src/pages/Products/page3-sneakers.png",
+            "image": "https://raw.githubusercontent.com/htorquilho/fs13-loja-online/main/Images/sneakers5.PNG",
             "color":"offwhite"
         }
     ],
