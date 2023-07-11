@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+.MuiInputBase-root.MuiInputBase-colorPrimary {
+    color:#474747;
+}
+
+.MuiInputBase-root.MuiInputBase-colorPrimary {
+    &.Mui-focused .MuiOutlinedInput-notchedOutline {
+        border-color: #474747;
+    }
+}
+
+.tenis-cards {
+    font-family: 'Inter';
+    font-style: normal;
+
+    .discount-text {
+        width: 292px;
+        height: 321px;
+        background: #FFF;
+        box-shadow: 6px 16px 30px rgba(105, 98, 98, 0.05);
+        border-radius: 4px;
+        
+        .discounted {
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 96px;
+            height: 32px;
+            background:#E7FF86;
+            color: #474747;
+            border-radius: 29px;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 32px;
+            letter-spacing: 0.75px;
+            margin:20px 0 0 20px;
+        }
+    }
+    
+    .tenis-img {
+
+    }
+
+    .text-cards {
+        margin-top: 24px;
+        line-height: 32px;
+        
+        .title {
+            color: #8F8F8F;
+            font-weight: 700;
+            font-size: 12px;
+            letter-spacing: 0.75px;
+        }
+
+        .text {
+            color: #474747;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 38px;
+            letter-spacing: 0.75px;
+        }
+    
+        .value {
+            color: #8F8F8F;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 38px;
+            letter-spacing: 0.75px;
+            text-decoration-line: line-through;
+           // text-decoration-thickness: 1px;
+            margin-right: 8px;
+        }
+        
+        .newValue {
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 38px;
+            letter-spacing: 0.75px;
+            color: #1F1F1F;
+        }
+    }
+    
+}
+
+.Products {
+    font-family: 'Inter';
+    font-style: normal;
+    background-color: #F9F8FE;
+    padding: 3rem;
+
+    .ResultsOrder {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 3rem;
+        
+        .results {
+            margin-left: 100px;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 28px;
+            letter-spacing: 0.75px;
+            color: #474747;
+            
+            .resultsFor {
+                width: 420px;
+                height: 38px;
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 38px;
+                letter-spacing: 0.75px;
+                color: #474747;
+            }
+
+            .p-389 {
+
+            }
+        }
+        
+        .FormSelect {
+            width: 290px;
+            height: 34px;
+            color: #F9F8FE;
+            display: flex;
+            align-items: center;
+            
+            .selected {
+                color: #474747;
+            }
+            
+            .optionsSelect {
+                color: #474747;
+            }
+        }
+        
+    }
+       
+    .link-map {
+
+    }
+
+    .images-grid {
+        
+    }
+} 
