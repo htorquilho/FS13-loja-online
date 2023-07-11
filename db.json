@@ -23,123 +23,125 @@
     "products": [
         {
             "id":1,
-            "title":"K-Swiss V8 - Masculino",
-            "discount":50,
-            "image":"https://raw.githubusercontent.com/htorquilho/fs13-loja-online/TrendingProducts/Images/shoes.png",
-            "price1":100,
-            "price2":200
+            "discouint":30,
+            "title": "Tênis",
+            "text":"K-Swiss V8 - Masculino",
+            "value":200,
+            "newValue":100,
+            "image":"/tenis.png"
         },
         {
             "id":2,
-            "title":"K-Swiss V8 - Masculino",
-            "discount":50,
-            "image":"https://raw.githubusercontent.com/htorquilho/fs13-loja-online/TrendingProducts/Images/shoes.png",
-            "price1":100,
-            "price2":200
+            "discouint":30,
+            "title": "Tênis",
+            "text":"K-Swiss V8 - Masculino",
+            "value":200,
+            "newValue":100,
+            "image":"/tenis.png"
         },
         {
             "id":3,
-            "title":"K-Swiss V8 - Masculino",
-            "discount":50,
-            "image":"https://raw.githubusercontent.com/htorquilho/fs13-loja-online/TrendingProducts/Images/shoes.png",
-            "price1":100,
-            "price2":200
+            "title": "Tênis",
+            "text":"K-Swiss V8 - Masculino",
+            "value":200,
+            "newValue":100,
+            "image":"/tenis.png"
         },
         {
             "id":4,
-            "title":"K-Swiss V8 - Masculino",
-            "discount":50,
-            "image":"https://raw.githubusercontent.com/htorquilho/fs13-loja-online/TrendingProducts/Images/shoes.png",
-            "price1":100,
-            "price2":200
+            "title": "Tênis",
+            "text":"K-Swiss V8 - Masculino",
+            "value":200,
+            "newValue":100,
+            "image":"/tenis.png"
         },
         {
             "id":5,
-            "title":"K-Swiss V8 - Masculino",
-            "discount":50,
-            "image":"https://raw.githubusercontent.com/htorquilho/fs13-loja-online/TrendingProducts/Images/shoes.png",
-            "price1":100,
-            "price2":200
+            "title": "Tênis",
+            "text":"K-Swiss V8 - Masculino",
+            "value":200,
+            "newValue":100,
+            "image":"/tenis.png"
         },
         {
             "id":6,
-            "title":"K-Swiss V8 - Masculino",
-            "discount":50,
-            "image":"https://raw.githubusercontent.com/htorquilho/fs13-loja-online/TrendingProducts/Images/shoes.png",
-            "price1":100,
-            "price2":200
+            "title": "Tênis",
+            "text":"K-Swiss V8 - Masculino",
+            "value":200,
+            "newValue":100,
+            "image":"/tenis.png"
         },
         {
             "id":7,
-            "title":"K-Swiss V8 - Masculino",
-            "discount":50,
-            "image":"https://raw.githubusercontent.com/htorquilho/fs13-loja-online/TrendingProducts/Images/shoes.png",
-            "price1":100,
-            "price2":200
+            "title": "Tênis",
+            "text":"K-Swiss V8 - Masculino",
+            "value":200,
+            "newValue":100,
+            "image":"/tenis.png"
         },
         {
             "id":8,
-            "title":"K-Swiss V8 - Masculino",
-            "discount":50,
-            "image":"https://raw.githubusercontent.com/htorquilho/fs13-loja-online/TrendingProducts/Images/shoes.png",
-            "price1":100,
-            "price2":200
+            "title": "Tênis",
+            "text":"K-Swiss V8 - Masculino",
+            "value":200,
+            "newValue":100,
+            "image":"/tenis.png"
         },
         {
             "id":9,
-            "title":"K-Swiss V8 - Masculino",
-            "discount":50,
-            "image":"https://raw.githubusercontent.com/htorquilho/fs13-loja-online/TrendingProducts/Images/shoes.png",
-            "price1":100,
-            "price2":200
+            "title": "Tênis",
+            "text":"K-Swiss V8 - Masculino",
+            "value":200,
+            "newValue":100,
+            "image":"/tenis.png"
         },
         {
             "id":10,
-            "title":"K-Swiss V8 - Masculino",
-            "discount":50,
-            "image":"https://raw.githubusercontent.com/htorquilho/fs13-loja-online/TrendingProducts/Images/shoes.png",
-            "price1":100,
-            "price2":200
+            "title": "Tênis",
+            "text":"K-Swiss V8 - Masculino",
+            "value":200,
+            "newValue":100,
+            "image":"/tenis.png"
         },
         {
             "id":11,
-            "title":"K-Swiss V8 - Masculino",
-            "discount":50,
-            "image":"https://raw.githubusercontent.com/htorquilho/fs13-loja-online/TrendingProducts/Images/shoes.png",
-            "price1":100,
-            "price2":200
+            "title": "Tênis",
+            "text":"K-Swiss V8 - Masculino",
+            "value":200,
+            "newValue":100,
+            "image":"/tenis.png"
         },
         {
             "id":12,
-            "title":"K-Swiss V8 - Masculino",
-            "discount":50,
-            "image":"https://raw.githubusercontent.com/htorquilho/fs13-loja-online/TrendingProducts/Images/shoes.png",
-            "price1":100,
-            "price2":200
+            "title": "Tênis",
+            "text":"K-Swiss V8 - Masculino",
+            "value":200,
+            "newValue":100,
+            "image":"/tenis.png"
         },
         {
             "id":13,
-            "title":"K-Swiss V8 - Masculino",
-            "discount":50,
-            "image":"https://raw.githubusercontent.com/htorquilho/fs13-loja-online/TrendingProducts/Images/shoes.png",
-            "price1":100,
-            "price2":200
+            "title": "Tênis",
+            "text":"K-Swiss V8 - Masculino",
+            "value":200,
+            "newValue":100,
+            "image":"/tenis.png"
         },
         {
             "id":14,
-            "title":"K-Swiss V8 - Masculino",
-            "discount":50,
-            "image":"https://raw.githubusercontent.com/htorquilho/fs13-loja-online/TrendingProducts/Images/shoes.png",
-            "price1":100,
-            "price2":200
+            "title": "Tênis",
+            "text":"K-Swiss V8 - Masculino",
+            "value":200,
+            "newValue":100,
+            "image":"/tenis.png"
         },
         {
             "id":15,
-            "title":"K-Swiss V8 - Masculino",
-            "discount":50,
-            "image":"https://raw.githubusercontent.com/htorquilho/fs13-loja-online/TrendingProducts/Images/shoes.png",
-            "price1":100,
-            "price2":200
+            "title": "Tênis",
+            "text":"K-Swiss V8 - Masculino",
+            "value":200,
+            "newValue":100,
+            "image":"/tenis.png"
         }
     ],
 
