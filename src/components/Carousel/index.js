@@ -76,7 +76,7 @@ export default function Carousel() {
           >
           </Paper>
 
-          <AutoPlaySwipeableViews
+          <AutoPlaySwipeableViews style={{height:"100%" }}
             axis={theme.direction === 'rtl' ? 'x-reverse' : 'x'}
             index={activeStep}
             onChangeIndex={handleStepChange}
