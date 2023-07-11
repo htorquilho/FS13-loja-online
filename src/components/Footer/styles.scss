@@ -7,6 +7,8 @@
         padding: 0;
         background-color: #1F1F1F;
         color: #FFFFFF;
+        font-family: 'Inter';
+        font-style: normal;
     }
 
     .footer-grid {
@@ -15,185 +17,167 @@
         height: 454px;
         left: 0px;
         top: 0px;
-    }
-
-    .logo-div {
-        position: absolute;
-        width: 253px;
-        height: 44px;
-        left: 104px;
-        top: 72px;
-    }
-
-    .logo-img {
-        position: static;
-        height: 33px;
-        width: 33px;
-        top: 38px;
-        border-radius: 0px;
-    }
-
-    .titulo-loja {
-        position: absolute;
-        height: 44px;
-        width: 212px;
-        left: 41px;
-        top: 0px;
-        font-family: 'Inter';
-        font-size: 36px;
-        font-weight: 600;
-        line-height: 44px;
-        letter-spacing: -0.01em;
-        text-align: left;
-    }
-
-    .p-loja {
-        position: absolute;
-        width: 307px;
-        height: 78px;
-        left: 100px;
-        top: 151px;
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 26px;
-    }
-
-    .face-icon {
-        position: absolute;
-        width: 10.92px;
-        height: 20.53px;
-        left: 100px;
-        top: 269px;
-    }
-
-    .insta-icon {
-        position: absolute;
-        width: 20.11px;
-        height: 20.11px;
-        left: 146px;
-        top: 269px;
-    }
-
-    .twit-icon {
-        position: absolute;
-        width: 22.12px;
-        height: 18.24px;
-        left: 202px;
-        top: 270px;    
-    }
-
-    .titulo-info {
-        position: absolute;
-        width: 99px;
-        height: 22px;
-        left: 612px;
-        top: 72px;
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 600;
-        font-size: 18px;
-        line-height: 22px;
-    }
-
-    .div-info {
-        position: absolute;
-        width: 135px;
-        height: 228px;
-        left: 612px;
-        top: 122px;
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 38px;
-    }
-
-    .titulo-categorias {
-        position: absolute;
-        width: 96px;
-        height: 22px;
-        left: 849px;
-        top: 72px;
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 600;
-        font-size: 18px;
-        line-height: 22px;
-    }
-
-    .div-categorias {
-        position: absolute;
-        width: 96px;
-        height: 190px;
-        left: 849px;
-        top: 122px;
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 38px;
-    }
-
-    .titulo-contato{
-        position: absolute;
-        width: 71px;
-        height: 22px;
-        left: 1113px;
-        top: 72px;
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 600;
-        font-size: 18px;
-        line-height: 22px;
-    }
-
-    .p-endereco {
-        position: absolute;
-        width: 231px;
-        height: 78px;
-        left: 1113px;
-        top: 122px;
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 26px;
-    }
-
-    .p-telefone {
-        position: absolute;
-        width: 231px;
-        height: 26px;
-        left: 1115px;
-        top: 214px;
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 26px;
-    }
-
-    hr {
-        position: absolute;
-        width: 1240px;
-        height: 1px;
-        left: 100px;
-        top: 384px;
-        opacity: 30%;
-    }
-
-    .p-copy {
-        position: absolute;
-        width: 140px;
-        height: 24px;
-        left: 618px;
-        top: 408px;
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 13px;
-        line-height: 24px;
-    }
+    
+        .logomarca {
+            position: absolute;
+            width: 253px;
+            height: 44px;
+            left: 104px;
+            top: 72px;
+        
+            .logo-img {
+                position: static;
+                height: 33px;
+                width: 33px;
+                top: 38px;
+                border-radius: 0px;
+                vertical-align: -24px;
+            }
+        
+            .titulo-loja {
+                position: absolute;
+                height: 44px;
+                width: 212px;
+                left: 41px;
+                top: 0px;
+                font-size: 36px;
+                font-weight: 600;
+                line-height: 44px;
+                letter-spacing: -0.01em;
+                text-align: left;
+            }
+        }
+    
+        .p-loja {
+            position: absolute;
+            width: 307px;
+            height: 78px;
+            left: 100px;
+            top: 151px;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+        }
+    
+        .face-icon {
+            position: absolute;
+            width: 10.92px;
+            height: 20.53px;
+            left: 100px;
+            top: 269px;
+        }
+    
+        .insta-icon {
+            position: absolute;
+            width: 20.11px;
+            height: 20.11px;
+            left: 146px;
+            top: 269px;
+        }
+    
+        .twit-icon {
+            position: absolute;
+            width: 22.12px;
+            height: 18.24px;
+            left: 202px;
+            top: 270px;    
+        }
+    
+        .titulo-info {
+            position: absolute;
+            width: 99px;
+            height: 22px;
+            left: 612px;
+            top: 72px;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 22px;
+        }
+    
+        .div-info {
+            position: absolute;
+            width: 135px;
+            height: 228px;
+            left: 612px;
+            top: 122px;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 38px;
+        }
+    
+        .titulo-categorias {
+            position: absolute;
+            width: 96px;
+            height: 22px;
+            left: 849px;
+            top: 72px;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 22px;
+        }
+    
+        .div-categorias {
+            position: absolute;
+            width: 96px;
+            height: 190px;
+            left: 849px;
+            top: 122px;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 38px;
+        }
+    
+        .titulo-contato{
+            position: absolute;
+            width: 71px;
+            height: 22px;
+            left: 1113px;
+            top: 72px;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 22px;
+        }
+    
+        .p-endereco {
+            position: absolute;
+            width: 231px;
+            height: 78px;
+            left: 1113px;
+            top: 122px;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+        }
+    
+        .p-telefone {
+            position: absolute;
+            width: 231px;
+            height: 26px;
+            left: 1115px;
+            top: 214px;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+        }
+    
+        hr {
+            position: absolute;
+            width: 1240px;
+            height: 1px;
+            left: 100px;
+            top: 384px;
+            opacity: 30%;
+        }
+    
+        .p-copy {
+            position: absolute;
+            width: 140px;
+            height: 24px;
+            left: 618px;
+            top: 408px;
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 24px;
+        }
+    }  
 }
