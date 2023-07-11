@@ -1,6 +1,5 @@
 import { Link, useLocation } from "react-router-dom";
-
-import "./styles.scss";
+import { Box } from "@mui/material";
 
 export default function Menu() {
     const url = useLocation();
@@ -10,11 +9,11 @@ export default function Menu() {
     }
 
     return (
-        <div className="menu">
-            <Link className={isActive('/')} to="/">Inicio</Link>
+        <Box className="header-menu">
+            <Link className={isActive('/')} to="/">Home</Link>
             <Link className={isActive('/produtos')} to="/produtos">Produtos</Link>
             <Link className={isActive('/categorias')} to="/categorias">Categorias</Link>
             <Link className={isActive("/meus-pedidos")} to="/meus-pedidos">Meus Pedidos</Link>
-        </div>
+        </Box>
     )
 }

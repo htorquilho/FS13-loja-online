@@ -1,7 +1,7 @@
 import React from "react";
-import { Grid, Button } from "@mui/material";
+import { Grid } from "@mui/material";
 import "./styles.scss";
-import tenis from "./img/tenis.png";
+
 
 export default function FeaturedCollections() {
     const [items, setItems] = React.useState([]); 
@@ -14,21 +14,32 @@ export default function FeaturedCollections() {
 
     const Card = (props) => {
         return (
-            <Grid item xs={4}>
+            <Grid  item xs={4}>
+
                 <div className="card">
-                    <div>
+
+                    <div class="column">
+
+                        <div class="t ">
                         {props.discount}
-                        {props.discount && "%"} 
-                        
-                        <br/>
-                        {props.text} <br/>
+                        {props.discount && "% OFF" } 
+                        </div>
 
-                        <Button variant="contained">Comprar</Button>
+                        <br/>
+
+                        <div class="texto">
+                        {props.text} <br/>
+                        </div>
+                        <button class="btn">Comprar</button>
+
                     </div>
 
                     <div>
+
                         <img src={props.image}/>
+
                     </div>
+
                 </div>
             </Grid>
         )
@@ -36,9 +47,9 @@ export default function FeaturedCollections() {
 
     return (
         <div className="featured-collections">
-            Coleções em Destaque
+            <h1 class="destaque">Coleções em destaque</h1>
 
-            <Grid container spacing={2}>
+            <Grid container spacing={3}>
                 {items.map(cada => (
                     <Card text={cada.title} discount={cada.discount} image={cada.image}/>
                 ))}

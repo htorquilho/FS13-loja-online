@@ -4,6 +4,7 @@ import Categories from "./pages/Categories";
 import Products from "./pages/Products";
 import ProductDetails from "./pages/ProductDetails";
 import Orders from "./pages/Orders";
+import SpecialOffer from "./components/SpecialOffer";
 
 export default function App() {
   return (
