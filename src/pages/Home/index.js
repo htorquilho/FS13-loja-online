@@ -9,7 +9,7 @@ import Carousel from "../../components/Carousel";
 
 export default function Home() {
     return (
-        <div style={{ width: '1440px' }}>
+        <div style={{ width: '1440px', backgroundColor: '#F9F8FE'  }}>
             
             <Header />
 
@@ -18,10 +18,6 @@ export default function Home() {
             <FeaturedCollections/>
 
             <FeaturedCollectionsIcons/>
-            
-            <div>
-                Coleções em Destaque 2
-            </div>
 
             <TrendingProducts/>
             

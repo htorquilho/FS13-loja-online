@@ -1,4 +1,5 @@
 import Header from "../../components/Header";
+import Footer from "../../components/Footer";
 import "./style.scss";
 import * as React from 'react';
 import Rating from '@mui/material/Rating';
@@ -33,7 +34,7 @@ export default function Products() {
 
     return (
         
-        <div style={{ backgroundColor: '#F9F8FE' }}>
+        <div style={{ backgroundColor: '#F9F8FE', width: '1440px' }}>
 
         <Header/>
 
@@ -52,7 +53,6 @@ export default function Products() {
             <div className="row">
                 <div className="sneakers">
                 <img  src={currentImage} alt="Product" />
-                <p>TESTANDO</p>
                 </div>
 
                 <div className="info" >
@@ -97,6 +97,7 @@ export default function Products() {
                 ))}
             </div>
             <RelatedProducts/>
+            <Footer/>
         </div>
     )
 }
